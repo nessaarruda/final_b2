@@ -38,7 +38,10 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'pry'
+  gem 'orderly'
+  gem 'nyan-cat-formatter'
   gem 'shoulda-matchers', '~> 3.1'
+  gem 'database_cleaner-active_record'
 end
 
 group :development do
